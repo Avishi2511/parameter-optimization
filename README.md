@@ -26,33 +26,21 @@ For each of 10 `random_state` values (0 to 9):
   - Record test accuracy.
 - Track the best-performing `C` and its corresponding accuracy for each split.
 
-### 📈 Convergence Graph
+### Convergence Graph
 
 - A plot is generated showing **accuracy vs. C** for the split that achieved the highest test accuracy.
 
-## 📊 Results Snapshot
+## Results Table
 
-| Split | Best Accuracy | Best Parameters |
-|-------|----------------|------------------|
-| 0     | 0.9673         | C=10.0           |
-| 1     | 0.9623         | C=9.9            |
-| 2     | 0.9632         | C=10.0           |
-| 3     | 0.9617         | C=10.0           |
-| 4     | 0.9592         | C=10.0           |
-| 5     | 0.9610         | C=9.7            |
-| 6     | 0.9582         | C=10.0           |
-| 7     | 0.9643         | C=8.5            |
-| 8     | 0.9652         | C=9.7            |
-| 9     | 0.9635         | C=9.9            |
+![image](https://github.com/user-attachments/assets/39298e07-5b1b-48d4-b24c-66183a6a3f70)
 
-## 🛠 Technologies Used
 
-- Python
-- `scikit-learn`
-- `pandas`, `numpy`
-- `matplotlib`, `seaborn`
+## Result Graph
 
-## 🚀 How to Run
+![image](https://github.com/user-attachments/assets/8df3c7e5-1a2b-460c-8654-d69928f9db0b)
+
+
+## How to Run
 
 1. Clone the repo:
    ```bash
